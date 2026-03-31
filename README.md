@@ -1,6 +1,6 @@
 # Semantic Field Detection
 
-**Course:** DS357 – Explainable AI (XAI)
+**Course:** DS357 – Natural Language Processing (NLP)
 **Author:** Manyam Jagadeeswar Reddy (Roll No: 23BDS033)
 **Program:** B.Tech in Data Science and Artificial Intelligence
 **Institution:** Indian Institute of Information Technology, Dharwad
