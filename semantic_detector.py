@@ -310,34 +310,3 @@ def explainable_semantic_detection(sentence: str) -> dict:
     }
 
 
-# =============================================================================
-# 8. EXECUTION BLOCK — QUICK SMOKE TESTS
-# =============================================================================
-
-if __name__ == "__main__":
-
-    test_sentences = [
-        "Apple released a new phone with better batteries.",
-        "I ate a fresh apple with my meal today.",
-        "The doctor performed a complex surgery at the hospital.",
-        "The bank approved a loan at 5 percent interest.",
-    ]
-
-    separator = "=" * 72
-
-    print(separator)
-    print("  SEMANTIC FIELD DETECTION — Module Self-Test")
-    print(separator)
-
-    for sentence in test_sentences:
-        result = explainable_semantic_detection(sentence)
-
-        print(f"\n  Input      : {result['sentence']}")
-        print(f"  Domain     : [ {result['domain']} ]")
-        print(f"  Confidence : {result['confidence']}%  ->  {result['status']}")
-        if result["explanation"]:
-            print(f"  XAI Trace  : Decision driven by {', '.join(result['explanation'])}")
-
-    print(f"\n{separator}")
-    print("  All tests complete.")
-    print(separator)
