@@ -1,0 +1,35 @@
+[2026-04-07 17:00:13]
+  Input      : The company decided that every new apple device must have a faster processor and more memory.
+  Domain     : TECHNOLOGY
+  Confidence : 66.7%
+  Status     : High confidence
+  XAI Trace  : 'device' (50.0%), 'apple' (50.0%)
+------------------------------------------------------------
+[2026-04-07 17:00:38]
+  Input      : Scientists found a digital virus in the hospital computer that was monitoring the patient's heart rate.
+  Domain     : MEDICAL
+  Confidence : 60.0%
+  Status     : High confidence
+  XAI Trace  : 'patient' (33.3%), 'hospital' (33.3%), 'virus' (33.3%)
+------------------------------------------------------------
+[2026-04-07 17:01:04]
+  Input      : If you invest your money in the market today, you might see a high profit despite the current economy.
+  Domain     : FINANCE
+  Confidence : 100.0%
+  Status     : High confidence
+  XAI Trace  : 'market' (20.0%), 'money' (20.0%), 'invest' (20.0%), 'profit' (20.0%), 'economy' (20.0%)
+------------------------------------------------------------
+[2026-04-07 17:01:21]
+  Input      : The athlete ran toward the goal to score the winning point for the team in the final match.
+  Domain     : SPORTS
+  Confidence : 100.0%
+  Status     : High confidence
+  XAI Trace  : 'athlete' (20.0%), 'match' (20.0%), 'goal' (20.0%), 'team' (20.0%), 'score' (20.0%)
+------------------------------------------------------------
+[2026-04-07 17:01:51]
+  Input      : The restaurant server brought us a recipe for a healthy meal with fresh fruit and chicken.
+  Domain     : FOOD
+  Confidence : 84.0%
+  Status     : High confidence
+  XAI Trace  : 'recipe' (20.0%), 'fruit' (20.0%), 'chicken' (20.0%), 'meal' (20.0%), 'server' (20.0%)
+------------------------------------------------------------
