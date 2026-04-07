@@ -102,17 +102,45 @@ This project utilizes the WordNet API for **auto-expansion** of domain keyword l
 
 ---
 
-## 5. Repository Structure
+## 5. How to Run
+
+### Prerequisites
+
+```bash
+pip install -r requirements.txt
+```
+
+### Interactive CLI
+
+```bash
+python main.py
+```
+
+This launches an interactive terminal session where you can type any English sentence and receive an instant classification with domain, confidence score, and XAI reasoning trace. All results are automatically logged to `results/session_log.txt`.
+
+### Jupyter Notebook
+
+Open `NLP_Semantic_detection.ipynb` in Google Colab or Jupyter to explore the full research pipeline including EDA, approach comparisons, and stress-test visualizations.
+
+---
+
+## 6. Repository Structure
 
 ```
 NLP-semantic-detection/
-├── NLP_Semantic_detection.ipynb   # Complete implementation notebook
-└── README.md                     # Project documentation
+├── main.py                        # Interactive CLI entry point
+├── semantic_detector.py           # Core detection module (all algorithms)
+├── requirements.txt               # Python dependencies
+├── NLP_Semantic_detection.ipynb   # Complete research notebook
+├── Semantic Field Detection_ Tackling Lexical Polysemy-NLP.pdf  # Project report
+├── README.md                      # Project documentation
+└── results/
+    └── session_log.txt            # Auto-generated analysis log
 ```
 
 ---
 
-## 6. References
+## 7. References
 
 1. Bevilacqua, M., Pasini, T., Raganato, A., & Navigli, R. (2021). Recent Trends in Word Sense Disambiguation: A Survey. *Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21)*, 4330–4338.
 
