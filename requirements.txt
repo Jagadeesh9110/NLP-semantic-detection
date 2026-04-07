@@ -1,3 +1,10 @@
-nltk>=3.8
-wn>=0.1.0
-matplotlib>=3.7.0
+# ==============================================
+# Requirements for Semantic Field Detection
+# ==============================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ==============================================
+
+nltk>=3.8        # Natural Language Toolkit (tokenization, lemmatization, stop-words)
+wn>=0.1.0        # Open English WordNet API (synsets, lemmas, semantic relations)
+matplotlib>=3.7.0  # Plotting library (used in the Jupyter Notebook for EDA graphs)
