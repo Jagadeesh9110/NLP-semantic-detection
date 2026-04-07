@@ -33,3 +33,38 @@
   Status     : High confidence
   XAI Trace  : 'recipe' (20.0%), 'fruit' (20.0%), 'chicken' (20.0%), 'meal' (20.0%), 'server' (20.0%)
 ------------------------------------------------------------
+[2026-04-07 23:31:35]
+  Input      : Apple is both a fruit and a technology company.
+  Domain     : FOOD
+  Confidence : 70.0%
+  Status     : High confidence
+  XAI Trace  : 'apple' (50.0%), 'fruit' (50.0%)
+------------------------------------------------------------
+[2026-04-07 23:33:27]
+  Input      : Apple released a new phone
+  Domain     : TECHNOLOGY
+  Confidence : 66.7%
+  Status     : High confidence
+  XAI Trace  : 'phone' (50.0%), 'apple' (50.0%)
+------------------------------------------------------------
+[2026-04-07 23:36:02]
+  Input      : Apple released a new phone with better batteries.
+  Domain     : TECHNOLOGY
+  Confidence : 78.6%
+  Status     : High confidence
+  XAI Trace  : 'battery' (33.3%), 'phone' (33.3%), 'apple' (33.3%)
+------------------------------------------------------------
+[2026-04-07 23:39:41]
+  Input      : I eat an apple on my computer.
+  Domain     : FOOD
+  Confidence : 50.0%
+  Status     : AMBIGUOUS (FOOD vs TECHNOLOGY)
+  XAI Trace  : 'apple' (50.0%), 'eat' (50.0%)
+------------------------------------------------------------
+[2026-04-07 23:42:00]
+  Input      : The hospital monitor was infected by a computer virus.
+  Domain     : TECHNOLOGY
+  Confidence : 52.4%
+  Status     : AMBIGUOUS (TECHNOLOGY vs MEDICAL)
+  XAI Trace  : 'virus' (33.3%), 'computer' (33.3%), 'monitor' (33.3%)
+------------------------------------------------------------
